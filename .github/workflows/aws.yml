@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: test-repo                     # set this to your Amazon ECR repository name
   ECS_SERVICE: my-test-task-service-530mhnry                 # set this to your Amazon ECS service name
   ECS_CLUSTER: decisive-rabbit-plw4sk                # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: my-test-task          # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .aws/my-test-task.json          # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: nginx               # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
